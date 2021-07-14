@@ -4,7 +4,8 @@
 }
 
 #projects {
-  padding-top: 150px;
+  padding-top: 300px;
+  padding-bottom: 250px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

@@ -9,7 +9,8 @@ class Education extends React.Component {
     return (
       <div id="education">       
        <div id="skills-container">
-        <a href="https://www.betrybe.com/" target="blank" className="skills-card">
+         <div>
+           <a href="https://www.betrybe.com/" target="blank" className="skills-card">
           <h3>Web Development</h3>
           <img src={LogoTrybe} alt="logotipo" />         
         </a>
@@ -18,7 +19,9 @@ class Education extends React.Component {
           <h4>Master student</h4>
           <img src={LogoCefet} alt="logotipo" />         
         </a>
-        <a href="https://www.cefetmg.br/" target="blank" className="skills-card">
+         </div>
+         <div>
+           <a href="https://www.cefetmg.br/" target="blank" className="skills-card">
           <h3>Technological Chemistry</h3>
           <h4>Bachelor degree</h4>
           <img src={LogoCefet} alt="logotipo" />         
@@ -27,6 +30,7 @@ class Education extends React.Component {
           <h3>English (B1), Deutsch (B1)</h3>
           <img src="https://img.icons8.com/fluent/96/000000/language.png" alt="languages" />             
         </div>
+         </div>        
        </div>    
       </div>      
     );

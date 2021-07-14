@@ -8,7 +8,7 @@ img {
 }
 
 #skills-container {
-  padding-top: 150px;
+  padding-top: 220px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -17,7 +17,7 @@ img {
 .skills-card {
   width: 400px;
   height: 200px;
-  margin-right: 50px;
+  margin-right: 10px;
   margin-bottom: 20px;
   margin-left: 50px;
   display: flex;

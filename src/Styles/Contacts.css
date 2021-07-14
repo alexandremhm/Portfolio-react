@@ -4,7 +4,7 @@
  }
 
  .header-hello {
-   padding: 100px 50px 50px 50px;;
+   padding: 100px 50px 70px 50px;;
  }
 
  .header-hello {
@@ -13,12 +13,14 @@
  }
 
  div a img {
-   width: 50px;
+   width: 70px;
  }
 
  div img {
    width: 50px;
    opacity: 0.5;
+   padding-bottom: 10px;
+   padding-top: 5px;
  }
 
  div img:hover {
@@ -50,4 +52,17 @@
  #contact-big-container {
    display: flex;
    justify-content: center;
+ }
+
+ #floatingTextarea {
+   width: 1000px;
+ }
+
+ #btn-div {
+   display: flex;
+   justify-content: center;
+ }
+
+ #btn-submit-contact {
+   width: 300px;   
  }

@@ -34,7 +34,7 @@ function ContactForm() {
       <div className="App">
         <form id="contact-form" onSubmit={onSubmit} method="POST">          
           <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Name</label>
+        <label for="exampleFormControlInput1" class="form-label">Name:</label>
           <input
             type='text'
             name='from_name'
@@ -44,7 +44,7 @@ function ContactForm() {
             class="form-control" 
             id="exampleFormControlInput1"
           />
-          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <label for="exampleFormControlInput1" class="form-label">Email address:</label>
           <input
             type='text'
             name='reply_to'
@@ -56,6 +56,7 @@ function ContactForm() {
           />       
         </div>
         <div class="mb-3">
+        <label for="floatingTextarea" class="form-label">Write your message here:</label>
           <textarea
             type='text-area'
             name='message'
@@ -66,9 +67,10 @@ function ContactForm() {
             id="floatingTextarea"
             rows="3"                      
           />
-        <label for="floatingTextarea" class="form-label">Write your message here:</label>
-        </div>        
-          <button type="submit" className="btn col-12 btn-primary">Submit</button>
+        </div>
+          <div id="btn-div">
+            <button type="submit" className="btn col-12 btn-primary" id="btn-submit-contact">Submit</button>
+            </div>       
         </form>
       </div>
     );
