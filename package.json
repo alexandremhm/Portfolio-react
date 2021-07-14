@@ -1,6 +1,6 @@
 {
-  "homepage": "http://alexandremhm.github.io/Portfolio-react",
-  "name": "exercise-portfolio-web",
+  "homepage": "http://alexandremhm.github.io/portfolio-react",
+  "name": "portfolio-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

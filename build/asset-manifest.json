@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Portfolio-react/static/css/main.a90f24e5.chunk.css",
-    "main.js": "/Portfolio-react/static/js/main.ecf6b60c.chunk.js",
-    "main.js.map": "/Portfolio-react/static/js/main.ecf6b60c.chunk.js.map",
-    "runtime-main.js": "/Portfolio-react/static/js/runtime-main.8e29731c.js",
-    "runtime-main.js.map": "/Portfolio-react/static/js/runtime-main.8e29731c.js.map",
-    "static/js/2.8b9c809f.chunk.js": "/Portfolio-react/static/js/2.8b9c809f.chunk.js",
-    "static/js/2.8b9c809f.chunk.js.map": "/Portfolio-react/static/js/2.8b9c809f.chunk.js.map",
-    "index.html": "/Portfolio-react/index.html",
-    "precache-manifest.47b05bb8568722894b25b3c728f8c0b3.js": "/Portfolio-react/precache-manifest.47b05bb8568722894b25b3c728f8c0b3.js",
-    "service-worker.js": "/Portfolio-react/service-worker.js",
-    "static/css/main.a90f24e5.chunk.css.map": "/Portfolio-react/static/css/main.a90f24e5.chunk.css.map",
-    "static/js/2.8b9c809f.chunk.js.LICENSE.txt": "/Portfolio-react/static/js/2.8b9c809f.chunk.js.LICENSE.txt",
-    "static/media/cefet.png": "/Portfolio-react/static/media/cefet.cdb84ed0.png",
-    "static/media/dev.svg": "/Portfolio-react/static/media/dev.fdf247da.svg",
-    "static/media/logotrybe.png": "/Portfolio-react/static/media/logotrybe.a0a4ec31.png",
-    "static/media/matheus.jpg": "/Portfolio-react/static/media/matheus.ff84438d.jpg"
+    "main.css": "/portfolio-react/static/css/main.a90f24e5.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.b3baa203.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.b3baa203.chunk.js.map",
+    "runtime-main.js": "/portfolio-react/static/js/runtime-main.a4de92d3.js",
+    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.a4de92d3.js.map",
+    "static/js/2.8b0444c2.chunk.js": "/portfolio-react/static/js/2.8b0444c2.chunk.js",
+    "static/js/2.8b0444c2.chunk.js.map": "/portfolio-react/static/js/2.8b0444c2.chunk.js.map",
+    "index.html": "/portfolio-react/index.html",
+    "precache-manifest.6f9851b9195ec37211563cfe19afd62f.js": "/portfolio-react/precache-manifest.6f9851b9195ec37211563cfe19afd62f.js",
+    "service-worker.js": "/portfolio-react/service-worker.js",
+    "static/css/main.a90f24e5.chunk.css.map": "/portfolio-react/static/css/main.a90f24e5.chunk.css.map",
+    "static/js/2.8b0444c2.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.8b0444c2.chunk.js.LICENSE.txt",
+    "static/media/cefet.png": "/portfolio-react/static/media/cefet.cdb84ed0.png",
+    "static/media/dev.svg": "/portfolio-react/static/media/dev.fdf247da.svg",
+    "static/media/logotrybe.png": "/portfolio-react/static/media/logotrybe.a0a4ec31.png",
+    "static/media/matheus.jpg": "/portfolio-react/static/media/matheus.ff84438d.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8e29731c.js",
-    "static/js/2.8b9c809f.chunk.js",
+    "static/js/runtime-main.a4de92d3.js",
+    "static/js/2.8b0444c2.chunk.js",
     "static/css/main.a90f24e5.chunk.css",
-    "static/js/main.ecf6b60c.chunk.js"
+    "static/js/main.b3baa203.chunk.js"
   ]
 }
