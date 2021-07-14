@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Portfolio-react/static/css/main.a90f24e5.chunk.css",
+    "main.js": "/Portfolio-react/static/js/main.c7c7b86d.chunk.js",
+    "main.js.map": "/Portfolio-react/static/js/main.c7c7b86d.chunk.js.map",
+    "runtime-main.js": "/Portfolio-react/static/js/runtime-main.8e29731c.js",
+    "runtime-main.js.map": "/Portfolio-react/static/js/runtime-main.8e29731c.js.map",
+    "static/js/2.8b9c809f.chunk.js": "/Portfolio-react/static/js/2.8b9c809f.chunk.js",
+    "static/js/2.8b9c809f.chunk.js.map": "/Portfolio-react/static/js/2.8b9c809f.chunk.js.map",
+    "index.html": "/Portfolio-react/index.html",
+    "precache-manifest.99797870b842796dc02b992d0342f182.js": "/Portfolio-react/precache-manifest.99797870b842796dc02b992d0342f182.js",
+    "service-worker.js": "/Portfolio-react/service-worker.js",
+    "static/css/main.a90f24e5.chunk.css.map": "/Portfolio-react/static/css/main.a90f24e5.chunk.css.map",
+    "static/js/2.8b9c809f.chunk.js.LICENSE.txt": "/Portfolio-react/static/js/2.8b9c809f.chunk.js.LICENSE.txt",
+    "static/media/cefet.png": "/Portfolio-react/static/media/cefet.cdb84ed0.png",
+    "static/media/dev.svg": "/Portfolio-react/static/media/dev.fdf247da.svg",
+    "static/media/logotrybe.png": "/Portfolio-react/static/media/logotrybe.a0a4ec31.png",
+    "static/media/matheus.jpg": "/Portfolio-react/static/media/matheus.ff84438d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8e29731c.js",
+    "static/js/2.8b9c809f.chunk.js",
+    "static/css/main.a90f24e5.chunk.css",
+    "static/js/main.c7c7b86d.chunk.js"
+  ]
+}
