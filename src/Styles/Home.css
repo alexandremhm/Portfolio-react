@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #191C3E;
+  font-family: 'Arvo', serif;
+}
+
+.Header, aside {
+  padding: 200px 0 50px 80px;
+}
+
+h1, h2 {
+  padding-bottom: 15px;
+}
+
+h3 {
+  padding-top: 50px;
+  font-size: 30px;
+}
+
+.homeContainer {
+  display: flex;
+  
+}
+
+aside {
+  display: flex;
+  flex-direction: column;  
+}
+
+aside img {
+  width: 40px;
+  padding-bottom: 15px;  
+}
+
+#dev-pic {
+  width: 500px;
+  padding-top: 150px;
+  margin-left: 100px;
+}
+
+.img-home {
+  opacity: 1.0;
+}
+

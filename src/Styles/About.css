@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#about {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#about-paragraph {
+  padding: 150px 50px 50px 0px;
+  width: 50%;
+  font-size: 30px;
+}
+
+#about-img {
+  width: 300px;  
+  margin-top: 125px;
+  border-radius: 10px;
+}
+
+
