@@ -1,19 +1,18 @@
 * {
   margin: 0;
   padding: 0;
-  color: #191C3E;
   font-family: 'Arvo', serif;
 }
 
 .Header, aside {
-  padding: 200px 0 50px 80px;
+  padding: 300px 0 50px 80px;
 }
 
-h1, h2 {
+.title-one, .title-two {
   padding-bottom: 15px;
 }
 
-h3 {
+.title-general {
   padding-top: 50px;
   font-size: 30px;
 }
@@ -31,17 +30,22 @@ aside {
 }
 
 aside img {
-  width: 40px;
+  width: 30px;
   padding-bottom: 15px;  
 }
 
 #dev-pic {
-  width: 500px;
+  width: 800px;
   padding-top: 150px;
   margin-left: 100px;
 }
 
 .img-home {
   opacity: 1.0;
+}
+
+.text {
+  font-size:50px;
+  font-family: 'Roboto', sans-serif;
 }
 
