@@ -23,7 +23,7 @@ class Opening extends React.Component {
                   exclude={[" ", "!"]}
                   obfuscate={obfuscate}
                   update={update}
-                  revealDuration={10000}
+                  revealDuration={1000}
                   revealDelay={1000}
                 > New Ideas
               </Baffle>
@@ -37,8 +37,8 @@ class Opening extends React.Component {
                   exclude={[" ", "!"]}
                   obfuscate={obfuscate}
                   update={update}
-                  revealDuration={1500}
-                  revealDelay={2000}
+                  revealDuration={1000}
+                  revealDelay={1500}
                 > New Solutions
               </Baffle>
           </h1>

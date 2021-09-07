@@ -1,3 +1,12 @@
+.header-container {
+  background-color: #333;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  /* width: 100%; */
+  opacity: 0.9;
+}
+
 .header-link {
   text-decoration: none;
   color: aliceblue;
@@ -10,7 +19,7 @@
   opacity: 0.8;
   transform: scale(1.1);
   transition: 0.3s;
-  color: #FF665A;
+  color: #E7605B;
 }
 
 .header-link:not(:hover) {

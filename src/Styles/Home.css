@@ -20,7 +20,7 @@
 .homeContainer {
   display: flex;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 110px;
   
 }
 
@@ -49,3 +49,6 @@ aside img {
   font-family: 'Roboto', sans-serif;
 }
 
+@media screen and (max-width: 768px) {
+  
+}
