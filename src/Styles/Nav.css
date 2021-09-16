@@ -1,29 +1,26 @@
-*{
-  margin: 0;
-  padding: 0;
-}
-.NavBar {
-  height: 60px;
-  background-color: #333;
-  display: flex;
-  justify-content: flex-end;
-  position: fixed;
-  width: 100%;
-  opacity: 0.9;
-}
-
-.Link {
+.social-links {
   text-decoration: none;
   color: aliceblue;
-  padding: 20px;
   align-items: flex-end;
   opacity: 1.0;
 }
 
-.Link:hover {
+.social-links:hover {
   opacity: 0.8;
+  transform: scale(1.3);
+  transition: 0.5s;
+  color: aliceblue;
+}
+
+.social-links:not(:hover) {
+  transition: 0.5s;
+  transform: scale(1.0);
 }
 
 .Contact {
   margin-right: 50px;
+}
+
+#root {
+  width: 100vw;
 }

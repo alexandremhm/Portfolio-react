@@ -23,15 +23,16 @@ function ContactForm() {
       'user_3xlFXTaDJ18AUeIMpjzhY'
     )
       .then((response) => {
-        console.log('SUCCESS!', response.status, response.text);
+        alert('Your message has been sent!');
       })
       .catch((err) => {
-        console.log('FAILED...', err);
+        alert('Something went wrong, please try again.');
       });
   };
 
     return(
-      <div className="App">
+      <div className="text-inputs">
+      <div>
         <form id="contact-form" onSubmit={onSubmit} method="POST">          
           <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Name:</label>
@@ -55,8 +56,7 @@ function ContactForm() {
             id="exampleFormControlInput1"
           />       
         </div>
-        <div class="mb-3">
-        <label for="floatingTextarea" class="form-label">Write your message here:</label>
+        <label for="floatingTextarea">Write your message here:</label>
           <textarea
             type='text-area'
             name='message'
@@ -64,14 +64,13 @@ function ContactForm() {
             value={toSend.message}
             onChange={handleChange}
             class="form-control form-control-md"
-            id="floatingTextarea"
             rows="3"                      
           />
-        </div>
           <div id="btn-div">
             <button type="submit" className="btn col-12 btn-primary" id="btn-submit-contact">Submit</button>
             </div>       
         </form>
+      </div>
       </div>
     );
   } 

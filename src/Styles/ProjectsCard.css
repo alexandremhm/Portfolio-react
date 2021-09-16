@@ -1,0 +1,39 @@
+.project-card-conatiner {
+  width: 25vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .project-card-conatiner {
+    width: 50vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;    
+  }
+
+  .project-card-image {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 100%;
+    margin-bottom: 20px;
+  }
+
+  .project-card-tech {
+    align-items: center;
+    font-size: 1.2rem
+  }
+
+  .project-card-title {
+    font-size: 1.8rem;
+  }
+
+  .project-card-none{
+    display: none;
+  }
+  
+}

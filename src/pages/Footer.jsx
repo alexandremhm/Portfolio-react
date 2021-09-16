@@ -7,7 +7,7 @@ class Footer extends React.Component {
     return (
       <div id="Footer">
         <div className="footer-container">
-          <h2>
+          <h2 className="footer-text">
             Thanks! Let's Code with Pride!
           </h2>
           <Link smooth to="/#home">

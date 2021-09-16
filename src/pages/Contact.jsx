@@ -1,7 +1,6 @@
 import React from 'react';
 import '../Styles/Contacts.css';
-import ContactForm from './ContactForm'
-
+import ContactForm from './ContactForm';
 
 class Contact extends React.Component {
   render() {
@@ -16,7 +15,7 @@ class Contact extends React.Component {
           <ContactForm />
         </div>        
           <div id="contact-links">
-          <div>            
+          <div className="contact-div">            
             <a href="https://github.com/alexandremhm" target="blank">
               <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" alt="GitHub" />
             </a>

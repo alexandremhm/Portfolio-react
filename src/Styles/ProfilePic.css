@@ -1,0 +1,42 @@
+.profile-card {
+    height: 350px;
+    width: 350px;
+    background: #5F5DCF;
+    padding: 20px;
+    position: relative;    
+    z-index: 1;
+}
+
+.profile-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 350px;
+    transform: skew(2deg, 5deg);
+    z-index: 1;
+    background: #F1F1F3;
+}
+
+.img-profile {
+  z-index: 3;
+  width: 300px;
+  margin-bottom: 30px;
+  position: absolute;
+}
+
+@media screen and (max-width: 768px) {
+  .profile-card {
+    height: 230px;
+    width: 230px;
+  }
+
+  .profile-card::before {
+    width: 230px;
+    height: 230px;
+  }
+  .img-profile {
+    width: 200px;
+  }
+}
