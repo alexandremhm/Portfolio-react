@@ -6,6 +6,10 @@ import styled from 'styled-components';
 const Nav = styled.nav`
   display: flex;
   flex-flow: row nowrap;
+  justify-content: flex-end;
+  position: fixed;
+  font-size: 1.2rem;
+  background-color: #333;
   align-items: center;
   width: 100%;
   gap: 1rem;
@@ -32,7 +36,6 @@ class Header extends React.Component {
       <Nav className="header-container" open={ open }>
         <Link className="header-link" smooth to="/#home">Home</Link>       
         <Link className="header-link" smooth to="/#about">About</Link>
-        <Link className="header-link" smooth to="/#education">Education</Link>
         <Link className="header-link" smooth to="/#projects">Projects</Link>
         <Link className="header-link" smooth to="/#contact">Contact</Link>
       </Nav>      

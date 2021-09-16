@@ -1,30 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 #projects {
   padding-top: 300px;
-  padding-bottom: 250px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.project-card {
-  width: 400px;
-  height: 200px;
-  margin-right: 50px;
-  margin-bottom: 20px;
-  margin-left: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: 1px solid #D9D9D9;
-  border-radius: 10px;
-  background-color: #D9D9D9;
-}
-
-.project-card img {
-  width: 30px;
+  padding-bottom: 250px; 
 }

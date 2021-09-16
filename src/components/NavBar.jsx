@@ -9,26 +9,19 @@ const Nav = styled.nav`
   justify-content: flex-end;
   align-items: center;
   width: 100%;
+  position: fixed;
   background: #333;
-
-  #header {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    background: #333;
-
-  }
+  opacity: 0.9;
+  z-index: 100;
 
 `
 
 class NavBar extends Component {
   render() {
     return (
-      <header id="header">
-        <Nav>
-          <Burger />  
-        </Nav>
-      </header>
+      <Nav>
+        <Burger />
+      </Nav>
     );
   }
 }

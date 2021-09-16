@@ -19,7 +19,7 @@ class Opening extends React.Component {
           <h1 className="opening-hero">
               <Baffle
                   speed={50}
-                  characters="!@#$%^&*"
+                  characters="01"
                   exclude={[" ", "!"]}
                   obfuscate={obfuscate}
                   update={update}
@@ -33,7 +33,7 @@ class Opening extends React.Component {
           <h1 className="opening-hero-two">
               <Baffle
                   speed={50}
-                  characters="!@#$%^&*"
+                  characters="01"
                   exclude={[" ", "!"]}
                   obfuscate={obfuscate}
                   update={update}

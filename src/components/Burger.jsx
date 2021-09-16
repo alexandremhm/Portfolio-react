@@ -7,11 +7,13 @@ const Div = styled.div`
   height: 2rem;
   z-index: 10;
   display: none;
-  top: 0;
+  top: 0.85rem;
   @media (max-width: 768px) {
     display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;
+    z-index: 100;
+    position: fixed;
   };
   div {
     width: 2rem;
