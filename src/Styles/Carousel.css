@@ -1,14 +1,35 @@
-.center {
-  width: 70vw;
-  margin: 0 auto;
-}
-
 .slick-arrow, .slick-next {
   filter: invert(70%);
 }
 
 .carousel-big-container {
   height: 100vh;
+}
+
+.card-carousel {
+  width: 50vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+.slick-slide {
+  visibility: hidden;
+}
+
+.slick-center, .slick-active, .slick-current {
+  visibility: visible;
+}
+
+.center {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.carousel-big-container {
+  height: 100%;
 }
 
 @media screen and (max-width: 768px) {

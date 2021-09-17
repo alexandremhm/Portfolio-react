@@ -11,7 +11,7 @@ class Carousel extends Component {
     const settings = {
       infinite: true,
       speed: 500,
-      slidesToShow: 1,
+      slidesToShow: window.innerWidth > 770 ? 2 : 1,
       slidesToScroll: 1,
       centerMode: true,
       className: "center",

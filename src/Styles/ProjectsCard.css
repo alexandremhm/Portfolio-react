@@ -1,10 +1,78 @@
-.project-card-conatiner {
-  width: 25vw;
+.project-card-container {
+  width: 60vw;
   height: auto;
   display: flex;
   flex-direction: column;
 }
 
+.project-card {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.project-card-image {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.project-card-tech, .project-card-credits {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.btn-margin {
+  margin-right: 20px;
+}
+
+.btn-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  color: #fff;
+}
+
+.project-card-button:hover {
+  background-color: #5F5DCF;
+  transition: 0.5s;
+  transform: scale(1.1);
+  border: none;
+}
+
+.project-card-button:not(:hover) {
+  background: #333;
+  transition: 0.7s;
+  transform: scale(1.0);
+}
+
+
+.project-card-button {
+  align-self: center;
+  font-size: 25px;
+  background: #333;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  width: 180px;
+}
+
+.project-card-description {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 15px;
+}
+
+.project-card-title {
+  padding: 20px;
+  text-align: center;
+  font-size: 2.5rem;
+}
 
 
 @media screen and (max-width: 768px) {
