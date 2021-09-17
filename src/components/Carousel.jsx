@@ -10,12 +10,11 @@ class Carousel extends Component {
   render() {
     const settings = {
       infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1,
+      speed: 800,
+      slidesToShow: window.innerWidth > 770 ? 2 : 1,
       centerMode: true,
       className: "center",
-      dots: true,
+      accessibility: true,
     };
     return (
       <div>
