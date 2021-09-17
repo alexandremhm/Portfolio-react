@@ -103,5 +103,9 @@
   .project-card-none{
     display: none;
   }
+
+  .project-card-button {
+    display: none;
+  }
   
 }

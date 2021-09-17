@@ -12,6 +12,7 @@ class Carousel extends Component {
       infinite: true,
       speed: 800,
       slidesToShow: window.innerWidth > 770 ? 2 : 1,
+      slidesToScroll: 1,
       centerMode: true,
       className: "center",
       accessibility: true,
