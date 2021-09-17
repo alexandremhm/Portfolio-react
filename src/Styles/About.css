@@ -8,6 +8,12 @@
   clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 80%);
 }
 
+.text-about-container {
+  display: flex;
+  justify-content: space-evenly;
+  min-width: 100vw;
+}
+
 #about-paragraph {
   font-size: 30px;
 }
