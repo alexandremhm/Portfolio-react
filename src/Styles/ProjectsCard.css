@@ -21,8 +21,11 @@
 }
 
 .project-card-tech, .project-card-credits {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-align: center;
+  color: #455473;
+  font-weight: 900;
+
 }
 
 .btn-margin {
@@ -39,9 +42,10 @@
 }
 
 .project-card-button:hover {
-  background-color: #5F5DCF;
+  background-color: #5EF275;
   transition: 0.5s;
   transform: scale(1.1);
+  font-weight: bold;
   border: none;
 }
 
@@ -66,6 +70,8 @@
   text-align: center;
   font-size: 1.5rem;
   padding: 15px;
+  color: rgb(255,255,255)
+
 }
 
 .project-card-title {

@@ -2,7 +2,7 @@ const projectsData = [
   {
     id: 1,
     title: "Pixel-art",
-    description: "Pixel-art is a game where you can create your own pixel art. You can create your own pixel art and share it with your friends. The page allows you to configure the pixel-board size, and reloading the page brings to you new colors options.",
+    description: "Pixel-art is a game where you can create your own pixel art. The page allows you to configure the pixel-board size, and reloading the page brings to you new colors options.",
     technologies: ["HTML", "CSS", "JavaScript"],
     image: "https://gartic.com.br/imgs/mural/ma/matheus1569/super-mario-pixel-art-2.png?raw=true",
     credits: "Project part of Trybe course",
@@ -14,7 +14,7 @@ const projectsData = [
     title: "To do List",
     description: "To do list is a simple todo list application. You can add, edit and delete tasks. You can also mark tasks as done.",
     technologies: ["HTML", "CSS", "JavaScript", "React", "Context-API"],
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmYlgTjf0xkfUut-h4hg_WuHqnp6XmTsmVe4pjFCDIUzKCzDc&s?raw=true",
+    image: "https://images-na.ssl-images-amazon.com/images/I/31S0Ht7jUyL.png?raw=true",
     credits: "Personal Project",
     linkRepo: "https://github.com/alexandremhm/todo-react",
     linkDemo: "https://alexandremhm.github.io/todo-react/",

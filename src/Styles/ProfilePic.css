@@ -1,9 +1,9 @@
 .profile-card {
     height: 350px;
     width: 350px;
-    background: #5F5DCF;
+    background: #5EF275;
     padding: 20px;
-    position: relative;    
+    position: relative;
     z-index: 1;
 }
 
@@ -16,7 +16,7 @@
     height: 350px;
     transform: skew(2deg, 5deg);
     z-index: 1;
-    background: #F1F1F3;
+    background: #0D0D0D;
 }
 
 .img-profile {
