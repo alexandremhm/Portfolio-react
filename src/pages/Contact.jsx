@@ -16,11 +16,11 @@ class Contact extends React.Component {
         </div>        
           <div id="contact-links">
           <div className="contact-div">            
-            <a href="https://github.com/alexandremhm" target="blank">
-              <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" alt="GitHub" />
+            <a href="https://github.com/alexandremhm" target="blank" className="links-contact">
+              <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" alt="GitHub" className="img-contact-social"/>
             </a>
-            <a href="https://www.linkedin.com/in/alexandremhm/" target="blank">
-              <img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png" alt="LinkedIn" />
+            <a href="https://www.linkedin.com/in/alexandremhm/" target="blank" className="links-contact">
+              <img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png" alt="LinkedIn" className="img-contact-social"/>
             </a> 
           </div>            
           </div>
