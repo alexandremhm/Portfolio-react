@@ -36,7 +36,7 @@ class Header extends React.Component {
       <Nav className="header-container" open={ open }>
         <Link className="header-link" smooth to="/#home">Home</Link>       
         <Link className="header-link" smooth to="/#about">About</Link>
-        <Link className="header-link" smooth to="/#projects">Projects</Link>
+        <Link className="header-link" smooth to="/#projectsnav">Projects</Link>
         <Link className="header-link" smooth to="/#contact">Contact</Link>
       </Nav>      
     );

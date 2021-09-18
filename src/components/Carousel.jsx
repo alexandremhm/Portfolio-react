@@ -18,7 +18,7 @@ class Carousel extends Component {
       accessibility: true,
     };
     return (
-      <div>
+      <div id="projectsnav">
         <Slider {...settings}>
           { projectsData.map((project, index) => 
             < ProjectCard key={index} projectsData={project} />

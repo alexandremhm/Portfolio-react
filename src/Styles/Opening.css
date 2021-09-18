@@ -9,14 +9,14 @@ clip-path: polygon(0 0, 150% 0, 100% 100%, 0 80%);
   text-align: center;
   padding-top: 35vh;
   padding-bottom: 150px;
-  color: #43D993;
+  color: #FFF;
   font-size: 5rem;
 }
 
 .opening-hero-two {
   text-align: center;
   font-size: 5rem;
-  color: #43D993;
+  color: #0D0D0D;
 }
 
 @media screen and (max-width: 768px) { 

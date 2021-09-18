@@ -29,7 +29,7 @@ class Opening extends React.Component {
               </Baffle>
             </h1>        
         </div>
-        <div>
+        <div className="opening-div-two">
           <h1 className="opening-hero-two">
               <Baffle
                   speed={50}

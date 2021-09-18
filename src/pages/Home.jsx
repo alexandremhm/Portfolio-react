@@ -3,8 +3,6 @@ import About from './About'
 import Projects from './Projects'
 import Contact from './Contact'
 import HomePic from '../photos/dev.svg'
-import linkedin from '../photos/linkedin.svg'
-import github from '../photos/github.svg'
 import '../Styles/Home.css'
 import '../Styles/General.css'
 
@@ -26,7 +24,7 @@ class Home extends React.Component {
           </aside>
           <div className="Header">
             <h2 className="title-two">Hello, I'm</h2>
-            <h1 className="title-one">Matheus Alexandre</h1>
+            <h1 className="title-one title-name">Matheus Alexandre</h1>
             <h1 className="title-one">Web Development Student</ h1>
             <h3 className="title-general">My Second 'Hello World' happened when I started coding!!!</h3>
           </div>
