@@ -24,7 +24,7 @@ class App extends Component {
   render() {
 
    return (
-    <BrowserRouter basename="/portfolio-react" >
+    <BrowserRouter basename="/" >
       { this.state.showOpening ? <Opening /> :
       <motion.div exit={{ opacity: 0.6 }} initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
         <div className="app-container">
