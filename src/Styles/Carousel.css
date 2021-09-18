@@ -24,24 +24,27 @@
   height: 100%;
 }
 
-.slick-arrow {
-  transform: scale(2);
-  opacity: 1.0;
-  display: flex ;
-}
-
-.slick-arrow:not(:hover) {
-  transform: scale(2);
-  transition: 0.9s;
-}
-
-.slick-arrow:hover {
-  transform: scale(3);
-  transition: 0.9s;
-  background-color: #5F5DCF;
-  border-radius: 5px;
-  filter: invert(0);
-  padding: 5px;
+@media screen and (min-width: 768px) {
+  .slick-arrow {
+    transform: scale(2);
+    opacity: 1.0;
+    display: flex ;
+  }
+  
+  .slick-arrow:not(:hover) {
+    transform: scale(2);
+    transition: 0.9s;
+  }
+  
+  .slick-arrow:hover {
+    transform: scale(3);
+    transition: 0.9s;
+    background-color: #5F5DCF;
+    border-radius: 5px;
+    filter: invert(0);
+    padding: 5px;
+  }
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -74,4 +77,11 @@
   .carousel-big-container {
     height: 100%;
   }
+
+  .slick-arrow {
+    transform: scale(1.1);
+    opacity: 1.0;
+    display: flex ;
+  }  
+  
 }

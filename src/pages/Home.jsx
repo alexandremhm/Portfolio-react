@@ -2,7 +2,6 @@ import React from 'react';
 import About from './About'
 import Projects from './Projects'
 import Contact from './Contact'
-import Footer from './Footer'
 import HomePic from '../photos/dev.svg'
 import '../Styles/Home.css'
 import '../Styles/General.css'
@@ -42,7 +41,6 @@ class Home extends React.Component {
         <About />
         <Projects />
         <Contact />        
-        <Footer />
       </div>
     );
   };
