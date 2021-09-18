@@ -17,7 +17,7 @@ const Div = styled.div`
   };
   div {
     width: 2rem;
-    background: red;
+    background: #43D993;
     height: 0.25rem;
     border-radius: 10px;
     transform-origin: 1px;

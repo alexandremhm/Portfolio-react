@@ -4,10 +4,26 @@
 
 .aside-home-img {
   width: 50px;
+  fill: #fff;
+  margin: 10px;
+}
+
+.aside-home-img:hover {
+  fill: #43D993;
+  transition: 0.5s;
+}
+
+.aside-home-img:not(:hover) {
+  fill: #fff;
+  transition: 0.5s;
 }
 
 .title-one, .title-two {
   padding-bottom: 15px;
+}
+
+.title-name {
+  color: #fff;
 }
 
 .title-general {

@@ -56,7 +56,7 @@ function ContactForm() {
             id="exampleFormControlInput1"
           />       
         </div>
-        <label for="floatingTextarea">Write your message here:</label>
+        <label for="floatingTextarea" className="form-label">Write your message here:</label>
           <textarea
             type='text-area'
             name='message'

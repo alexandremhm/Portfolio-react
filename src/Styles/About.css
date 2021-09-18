@@ -2,9 +2,10 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding-top: 350px;
+  padding-top: 300px;
   padding-bottom: 300px;
-  background-color: #333;
+  background-color: #2F3A59;
+  opacity: 0.8;
   clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 80%);
 }
 
@@ -23,15 +24,12 @@
 }
 
 .moldura-dois {
-	width: 900px; 
-	border:8px inset #5f6632;
-	padding:15px;
-	background: #b1b1c3;
+	width: 850px;
+  color: #5EF275;
 	}
 
 .moldura-um {
 	width: 850px;
-	border:20px inset #5d738b;
 	padding:25px;
 	background: transparent url(/bg-um.gif);
 	}
@@ -54,6 +52,7 @@
 
   .moldura-dois {
     display: none;
+    padding: 20px;
   }
 
   .text-about-container {
@@ -64,9 +63,10 @@
   #about-paragraph-mobile {
     margin-top: -50px;
     visibility: visible;
-    color: #fff;
+    color: #5EF275;
     font-size: 1.2rem;
     max-width: 80vw;
+    padding-top: 30px;
   }
 
 }
