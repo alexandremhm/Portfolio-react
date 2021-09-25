@@ -13,7 +13,7 @@ const projectsData = [
     id: 2,
     title: "To do List",
     description: "To do list is a simple todo list application. You can add, edit and delete tasks. You can also mark tasks as done.",
-    technologies: ["HTML", "CSS", "JavaScript", "React", "Context-API", "Hooks", "React Testing Library", "Jest"],
+    technologies: ["HTML", "CSS", "JavaScript", "React", "Context-API", "Hooks", "Jest", "React Testing Library"],
     image: "https://images-na.ssl-images-amazon.com/images/I/31S0Ht7jUyL.png?raw=true",
     credits: "Personal Project",
     linkRepo: "https://github.com/alexandremhm/todo-react",
